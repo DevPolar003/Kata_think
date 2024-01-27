@@ -1,0 +1,98 @@
+  * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: "Montserrat", sans-serif;;
+    outline: none;
+  }
+body {
+  background: url(./img/6658753.jpg)
+}
+.box {
+  background-color: gray;
+  color: #000000;
+  font-family: monospace;
+  padding: 24px; ;
+  border-radius: 10px;
+  margin: 150px auto 0;
+  width: 600px;
+}
+ 
+
+.title {
+  padding-top: 20px;
+  font-size: 35px;
+  color: gray;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+  img {
+    height: 30px;
+    opacity: 0%;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+  }
+    .task:hover img {
+      opacity: 1;
+      animation: alternate;
+    }
+
+  .input-task {
+    padding: 15px;
+    padding-left: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+      margin-bottom: 20px;
+  }
+
+
+  .button {
+    border-radius: 5px;
+    background-color: #2d414b;
+    color: #ffffff;
+    border: none; 
+    height: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px; /* serve para dar espaçamento vazio deixa mais pomposo lindo*/
+    float: 100px ;  /* como se fosse a força do skywalker joga pro lado em pixels ou em direções */
+    cursor: pointer; /* para aparecer a mãozinha lá */
+  }
+   
+  .button:hover {
+    opacity: 0.8;
+  }
+
+  .button:active {
+    opacity: 0.6;
+  }
+
+    .list-task {
+      width: 100%;
+      list-style: none;
+    }
+
+    .task {
+      background-color: #ffffff;
+      box-shadow: 1px 4px 10px rgba(0,0 ,0,0.2 );
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px;
+      border: none;
+      height: 40px;
+      margin-bottom: 20px;
+      
+    }
+
+    .done {
+      background-color: #597888;
+      text-decoration:line-through;
+    }
+    
+ 
